@@ -6,4 +6,8 @@ package org.prog.cars;
 //TODO: Override turn method for Cargo Truck and Lorry (see Samsung generations for example)
 // TODO: Add any method to ICar interface and implement it in Ford, Honda and Tesla
 public class Car {
+    public void Car_turns()
+    {
+        System.out.println("This car :" + " turns left");
+    }
 }

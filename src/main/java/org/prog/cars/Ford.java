@@ -7,6 +7,8 @@ public class Ford implements ICar {
     public int miles;//500
 
     @Override
+    public void turns() { System.out.println("Ford move forward"); }
+    @Override
     public void goTo() {
         System.out.println("Ford uses diesel engine!");
     }

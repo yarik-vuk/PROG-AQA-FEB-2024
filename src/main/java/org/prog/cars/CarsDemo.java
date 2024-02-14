@@ -25,28 +25,46 @@ public class CarsDemo {
      */
 
     public static void main(String[] args) {
-        int i = 10;
-        increaseI(i);
-        i=550;
-        System.out.println(i);
-        Ford redCar = new Ford();
-        Ford blueCar = new Ford();
-        Ford greenCar = new Ford();
 
-        Ford bobsCar = redCar;
-        Ford sarahsCar = blueCar;
-        Ford joesCar = greenCar;
+        Ford ford = new Ford ();
+        Honda honda = new Honda();
+        Tesla tesla = new Tesla();
+        CargoTruck cargoTruck = new CargoTruck();
+        Truck truck = new Truck();
 
-        redCar.miles = 500;
-        blueCar.miles = 501;
-        greenCar.miles = 500;
+        truck.Car_turns();
+        cargoTruck.Car_turns();
+        ford.turns();
+        honda.turns();
+        tesla.turns();
 
-        redCar.color = "red";
-        blueCar.color = "red";
-        greenCar.color = "green";
 
-        System.out.println(redCar.equals(blueCar));
-        System.out.println(redCar.equals(greenCar));
+
+
+
+
+        //        int i = 10;
+//        increaseI(i);
+//        i=550;
+//        System.out.println(i);
+//        Ford redCar = new Ford();
+//        Ford blueCar = new Ford();
+//        Ford greenCar = new Ford();
+
+//        Ford bobsCar = redCar;
+//        Ford sarahsCar = blueCar;
+//        Ford joesCar = greenCar;
+
+//        redCar.miles = 500;
+//        blueCar.miles = 501;
+//        greenCar.miles = 500;
+
+//        redCar.color = "red";
+//        blueCar.color = "red";
+//        greenCar.color = "green";
+
+//        System.out.println(redCar.equals(blueCar));
+//        System.out.println(redCar.equals(greenCar));
 //
 //        System.out.println(bobsCar.color);
 //        System.out.println(bobsCar.miles);
@@ -69,14 +87,14 @@ public class CarsDemo {
 //
 //        System.out.println(joesCar.color);
 //        System.out.println(joesCar.miles);
-    }
+//    }
 
-    public static void paintCar(Ford car, String color) {
-        car.miles += 50;
-        car.color = color;
-    }
+//    public static void paintCar(Ford car, String color) {
+//        car.miles += 50;
+//        car.color = color;
+//    }
 
-    public static void increaseI(int i) {
-        i = 500;
-    }
-}
+//    public static void increaseI(int i) {
+//        i = 500;
+//    }
+}}
