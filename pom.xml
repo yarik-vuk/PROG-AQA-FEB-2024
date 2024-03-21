@@ -72,6 +72,7 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.32</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
